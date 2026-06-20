@@ -1,0 +1,28 @@
+{
+  "name": "whoami-md",
+  "version": "0.1.0",
+  "description": "Generate a portable, user-owned WHOAMI.md identity file from public GitHub evidence.",
+  "type": "module",
+  "bin": {
+    "whoami-md": "bin/whoami.ts"
+  },
+  "scripts": {
+    "whoami": "node bin/whoami.ts",
+    "test": "node --test"
+  },
+  "keywords": [
+    "whoami",
+    "github",
+    "identity",
+    "context",
+    "claude",
+    "agent",
+    "llm",
+    "profile"
+  ],
+  "author": "Johnny Clem",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.6.0"
+  }
+}
